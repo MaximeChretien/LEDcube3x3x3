@@ -1,3 +1,17 @@
+/*
+3x3x3 Led Cube controller with:
+- Different animations
+- Speed control using potentiometer
+- Light control using potentiometer
+- Auto mode activate by a switch
+- Mode change push button 
+
+Maxime Chretien
+v1.1
+
+*/
+
+
 const int columnPins[9] = {0,1,3,4,5,6,7,8,12};
 const int layerPins[3] = {9,10,11};
 const int lumPin = A0;
